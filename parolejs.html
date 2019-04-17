@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      // //definisco le due variabili, parola1 e parola2.
+      // Tali variabili corrispondono alle parole che il codice chiederà all'utente di inserire, una dopo l'altra//
+      var parola1 = prompt('inserisci la prima parola');
+      var parola2 = prompt('inserisci la seconda parola');
+
+      //se la lunghezza della prima è superiore alla lunghezza della seconda...
+      if (parola1.length > parola2.length) {
+      //... allora dico al codice di avvertire che la prima parola è più lunga della seconda
+        alert('La prima parola è più lunga della seconda');
+      // se invece la lunghezza della prima è inferiore alla lunghezza della seconda...
+      } else if (parola1.length < parola2.length) {
+      // allora dico al codice di avvertire che la seconda parola è più lunga della prima
+        alert('La seconda parola è più lunga della prima');
+      // altrimenti, dico al codice di avvertire che le due parole hanno la stessa lunghezza
+      } else {
+        alert('Le due parole hanno la stessa lunghezza');
+      }
+
+    </script>
+
+  </body>
+</html>
